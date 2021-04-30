@@ -1,0 +1,16 @@
+{
+  "name": "chat-api-2",
+  "version": "1.0.0",
+  "description": "chat api to fetch data from Stream CHat server and store it in a mongoDB database with respect to the Channels",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "XkuramaX",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.11.11",
+    "stream-chat": "^1.11.3"
+  }
+}
